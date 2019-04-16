@@ -1,6 +1,6 @@
 ﻿# ex1 수행 내용입니다.
 
-//hdfs에 로컬에 있는 devicestatus.txt를 복사
+//로컬에 있는 devicestatus.txt를 hdfs로 복사
 
 //hdfs의 ex1 디렉토리 내 devicestatus.txt 읽음
 - devicestatusfile = sc.textFile("/ex1/devicestatus.txt")
